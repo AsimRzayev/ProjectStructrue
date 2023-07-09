@@ -1,0 +1,10 @@
+{
+	"type": "module",
+	"scripts": {
+		"sass": "sass --update  --no-source-map --style=compressed assets/sass:build/css",
+		"sass:watch": "sass --watch --update  --no-source-map --style=compressed assets/sass:build/css"
+	},
+	"dependencies": {
+		"sass": "^1.63.6"
+	}
+}

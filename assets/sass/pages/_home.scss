@@ -1,0 +1,12 @@
+.products {
+	&-list {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: $base * 4;
+		column-gap: $base * 6;
+
+		article {
+			width: calc(100% / 3 - $base * 4);
+		}
+	}
+}

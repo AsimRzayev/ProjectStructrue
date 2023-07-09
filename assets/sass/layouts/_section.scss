@@ -1,0 +1,8 @@
+.section {
+	padding: $base * 15 0px;
+	&-title {
+		font-size: $font-size-xl-2;
+		color: $color-gray-500;
+		margin-bottom: $base * 2;
+	}
+}

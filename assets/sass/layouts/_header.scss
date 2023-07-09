@@ -1,0 +1,24 @@
+header {
+	background-color: $color-gray-500;
+	color: $color-white;
+	padding: $base * 3 0px;
+	.header-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	h1 {
+		font-size: $font-size-xl-3;
+	}
+	ul {
+		display: flex;
+		column-gap: $base * 3;
+		a {
+			font-size: $font-size-lg;
+			transition: 0.5s color;
+			&:hover {
+				color: $color-red-500;
+			}
+		}
+	}
+}
